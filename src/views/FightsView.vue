@@ -1,13 +1,13 @@
 <template>
   <div>
-    <div class="container mx-auto m-5 bg-gray-600 bg-opacity-75 p-4">
+    <div class="container mx-auto m-5 bg-black bg-opacity-75 p-4">
       <h2 class="text-center text-white text-2xl mb-2">Die aktuellen Kämpfe</h2>
       <p class="text-white mb-1">
         Hier siehst du welche Kämpfer als nächsten antreten, um sich die Fäuste
         blutig zu schlagen!
       </p>
     </div>
-    <div class="container mx-auto mt-12 mb-12 m-5 bg-gray-600 bg-opacity-75 p-4">
+    <div class="container mx-auto mt-12 mb-12 m-5 bg-black bg-opacity-75 p-4">
       <div class="flex justify-center space-x-2 text-white text-2xl">
         <div>Fighter 1</div>
         <div>VS</div>
@@ -22,21 +22,21 @@
         </span>
       </div>
     </div>
-    <div class="container mx-auto m-5 bg-gray-600 bg-opacity-75 p-4">
+    <div class="container mx-auto m-5 bg-black bg-opacity-75 p-4">
       <div class="flex justify-center space-x-2 text-white text-xl">
         <div>Fighter 1</div>
         <div>VS</div>
         <div>Fighter 2</div>
       </div>
     </div>
-    <div class="container mx-auto m-5 bg-gray-600 bg-opacity-75 p-4">
+    <div class="container mx-auto m-5 bg-black bg-opacity-75 p-4">
       <div class="flex justify-center space-x-2 text-white text-xl">
         <div>Fighter 1</div>
         <div>VS</div>
         <div>Fighter 2</div>
       </div>
     </div>
-    <div class="container mx-auto m-5 bg-gray-600 bg-opacity-75 p-4">
+    <div class="container mx-auto m-5 bg-black bg-opacity-75 p-4">
       <div class="flex justify-center space-x-2 text-white text-xl">
         <div>Fighter 1</div>
         <div>VS</div>

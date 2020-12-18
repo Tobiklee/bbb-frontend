@@ -1,6 +1,6 @@
 <template>
   <div data-app>
-    <div class="container mx-auto m-5 bg-gray-600 bg-opacity-75 p-4">
+    <div class="container mx-auto m-5 bg-black bg-opacity-75 p-4">
       <h2 class="text-center text-white text-2xl mb-2">BATTLE OF BADEMÄNTEL</h2>
       <p class="text-white mb-1">
         Willkommen in der Gasse, wo die schlimmsten Verbrechner, die
@@ -18,7 +18,7 @@
       </p>
     </div>
     <div
-      class="container mx-auto flex flex-col m-5 bg-gray-600 bg-opacity-75 p-4"
+      class="container mx-auto flex flex-col m-5 bg-black bg-opacity-75 p-4"
     >
       <h2 class="text-center text-white text-2xl mb-2">Trag dich ein!</h2>
       <v-autocomplete
