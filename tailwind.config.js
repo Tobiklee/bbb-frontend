@@ -3,7 +3,7 @@ module.exports = {
   darkMode: false, // or 'media' or 'class'
   theme: {
     extend: {
-      backgroundImage: (theme) => ({
+      backgroundImage: () => ({
         "brick-wall-texture": "url('./assets/dark-brick-wall-texture.jpg')",
       }),
     },
@@ -11,7 +11,5 @@ module.exports = {
   variants: {
     extend: {},
   },
-  plugins: [require("@tailwindcss/typography")],
+  plugins: [],
 };
-
-//v9isqinlu9v8nkkpis2wrceol5bm0t

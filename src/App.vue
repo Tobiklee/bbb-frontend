@@ -1,5 +1,5 @@
 <template>
-  <div class="relative bg-brick-wall-texture h-screen pt-16">
+  <div class="relative bg-brick-wall-texture h-screen pt-16 overflow-auto">
     <img
       class="absolute w-24 h-24 top-6 left-2"
       src="./assets/fedora-hut.png"

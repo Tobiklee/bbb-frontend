@@ -2,6 +2,7 @@
 @import "./styles/_variables.css";
 
 /* EXTERNAL */
+
 /*! @import */
 @tailwind base;
 @tailwind components;
