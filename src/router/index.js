@@ -11,6 +11,11 @@ const routes = [
     component: RegistrationView
   },
   {
+    path: '/registration',
+    name: 'Anmeldung',
+    component: RegistrationView
+  },
+  {
     path: '/fights',
     name: 'Kämpfe',
     // route level code-splitting

@@ -15,7 +15,7 @@
     <v-navigation-drawer v-model="drawer" dark absolute temporary>
       <div class="flex flex-col align-center">
         <v-btn class="w-full">
-          <nav-router-link to="/">Anmeldung! </nav-router-link>
+          <nav-router-link to="/registration">Anmeldung! </nav-router-link>
         </v-btn>
         <v-btn class="w-full">
           <nav-router-link to="/fights">Zu den Kämpfen!</nav-router-link>

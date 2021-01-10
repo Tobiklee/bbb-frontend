@@ -9,7 +9,7 @@
     "mockserver": "json-server --watch ./jsonServer/db.json --port 3300"
   },
   "dependencies": {
-    "axios": "^0.21.0",
+    "axios": "^0.21.1",
     "core-js": "^3.6.5",
     "vue": "^2.6.11",
     "vue-router": "^3.2.0",

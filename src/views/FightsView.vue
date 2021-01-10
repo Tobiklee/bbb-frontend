@@ -1,51 +1,108 @@
 <template>
-  <div>
-    <div class="container mx-auto m-5 bg-black bg-opacity-75 p-4">
-      <h2 class="text-center text-white text-2xl mb-2">Die aktuellen Kämpfe</h2>
-      <p class="text-white mb-1">
-        Hier siehst du welche Kämpfer als nächsten antreten, um sich die Fäuste
-        blutig zu schlagen!
-      </p>
-    </div>
-    <div class="container mx-auto mt-12 mb-12 m-5 bg-black bg-opacity-75 p-4">
-      <div class="flex justify-center space-x-2 text-white text-2xl">
-        <div>Fighter 1</div>
-        <div>VS</div>
-        <div>Fighter 2</div>
-        <span class="relative h-4 w-4">
-          <span
-            class="absolute inline-flex rounded-full h-4 w-4 bg-red-500"
-          ></span>
-          <span
-            class="animate-ping absolute inline-flex h-full w-full rounded-full bg-red-400 opacity-75"
-          ></span>
+  <div data-app>
+    <v-card class="p-4 mb-4" color="black">
+      <v-card-title class="text-center justify-center py-6">
+        <h2 class="text-white text-2xl">Die aktuellen Kämpfe</h2>
+      </v-card-title>
+      <v-card-text>
+        <span class="text-white">
+          Hier siehst du welche Kämpfer als nächsten antreten, um sich die
+          Fäuste blutig zu schlagen!
         </span>
-      </div>
-    </div>
-    <div class="container mx-auto m-5 bg-black bg-opacity-75 p-4">
-      <div class="flex justify-center space-x-2 text-white text-xl">
+      </v-card-text>
+    </v-card>
+    <v-card class="p-4 mb-4" color="black">
+      <v-card-title class="text-center justify-center py-6">
+        <h2 class="text-white text-2xl">Gerade Live!</h2>
+      </v-card-title>
+      <div
+        class="flex flex-col lg:flex-row items-center lg:justify-center space-x-2 text-white text-2xl m-2"
+      >
         <div>Fighter 1</div>
         <div>VS</div>
         <div>Fighter 2</div>
       </div>
-    </div>
-    <div class="container mx-auto m-5 bg-black bg-opacity-75 p-4">
-      <div class="flex justify-center space-x-2 text-white text-xl">
-        <div>Fighter 1</div>
-        <div>VS</div>
-        <div>Fighter 2</div>
+    </v-card>
+    <v-card color="black" class="flex flex-col items-center p-4 mb-4">
+      <v-card-title class="text-center justify-center py-6">
+        <h2 class="text-white text-2xl">Alle Kämpfe</h2>
+      </v-card-title>
+      <v-tabs
+        background-color="transparent"
+        grow
+        center-active
+        dark
+        class="mb-8 lg:max-w-md"
+      >
+        <v-tab @click="tab = 0">kommende</v-tab>
+        <v-tab @click="tab = 1">vergangene</v-tab>
+      </v-tabs>
+      <div v-if="tab == 0">
+        <div
+          class="flex flex-col lg:flex-row items-center lg:justify-center space-x-2 text-white text-2xl m-2"
+        >
+          <div>Fighter 1</div>
+          <div>VS</div>
+          <div>Fighter 2</div>
+        </div>
+        <v-divider dark />
+        <div
+          class="flex flex-col lg:flex-row items-center lg:justify-center space-x-2 text-white text-2xl m-2"
+        >
+          <div>Fighter 1</div>
+          <div>VS</div>
+          <div>Fighter 2</div>
+        </div>
+        <v-divider dark />
+        <div
+          class="flex flex-col lg:flex-row items-center lg:justify-center space-x-2 text-white text-2xl m-2"
+        >
+          <div>Fighter 1</div>
+          <div>VS</div>
+          <div>Fighter 2</div>
+        </div>
       </div>
-    </div>
-    <div class="container mx-auto m-5 bg-black bg-opacity-75 p-4">
-      <div class="flex justify-center space-x-2 text-white text-xl">
-        <div>Fighter 1</div>
-        <div>VS</div>
-        <div>Fighter 2</div>
+      <div v-if="tab == 1">
+        <div
+          class="flex flex-col lg:flex-row items-center lg:justify-center space-x-2 text-white text-2xl m-2"
+        >
+          <div>Fighter 1</div>
+          <div>Fighter 11</div>
+          <div>VS</div>
+          <div>Fighter 2</div>
+          <div>Fighter 22</div>
+        </div>
+        <v-divider dark />
+        <div
+          class="flex flex-col lg:flex-row items-center lg:justify-center space-x-2 text-white text-2xl m-2"
+        >
+          <div>Fighter 1</div>
+          <div>Fighter 11</div>
+          <div>VS</div>
+          <div>Fighter 2</div>
+          <div>Fighter 22</div>
+        </div>
+        <v-divider dark />
+        <div
+          class="flex flex-col lg:flex-row items-center lg:justify-center space-x-2 text-white text-2xl m-2"
+        >
+          <div>Fighter 1</div>
+          <div>Fighter 11</div>
+          <div>VS</div>
+          <div>Fighter 2</div>
+          <div>Fighter 22</div>
+        </div>
       </div>
-    </div>
+    </v-card>
   </div>
 </template>
 
 <script>
-export default {};
+export default {
+  data() {
+    return {
+      tab: 0,
+    };
+  },
+};
 </script>
