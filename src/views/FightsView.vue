@@ -16,7 +16,7 @@
         <h2 class="text-white text-2xl">Gerade Live!</h2>
       </v-card-title>
       <div
-        class="flex flex-col lg:flex-row items-center lg:justify-center space-x-2 text-white text-2xl m-2"
+          class="flex flex-col lg:flex-row items-center lg:justify-center space-x-2 space-y-2 text-white text-2xl m-2"
       >
         <div>Fighter 1</div>
         <div>VS</div>
@@ -39,58 +39,58 @@
       </v-tabs>
       <div v-if="tab == 0">
         <div
-          class="flex flex-col lg:flex-row items-center lg:justify-center space-x-2 text-white text-2xl m-2"
+          class="flex flex-col lg:flex-row items-center lg:justify-center space-x-2 space-y-2 text-white text-2xl m-2"
         >
-          <div>Fighter 1</div>
-          <div>VS</div>
-          <div>Fighter 2</div>
+          <v-chip dark> Fighter 1</v-chip>
+          <div class="xl:mr-2 xl-ml-2">VS</div>
+          <v-chip dark>Fighter 2</v-chip>
         </div>
         <v-divider dark />
         <div
-          class="flex flex-col lg:flex-row items-center lg:justify-center space-x-2 text-white text-2xl m-2"
+          class="flex flex-col lg:flex-row items-center lg:justify-center space-x-2 space-y-2 text-white text-2xl m-2"
         >
-          <div>Fighter 1</div>
-          <div>VS</div>
-          <div>Fighter 2</div>
+          <v-chip dark>Fighter 1</v-chip>
+          <div class="xl:mr-2 xl-ml-2">VS</div>
+          <v-chip dark>Fighter 2</v-chip>
         </div>
         <v-divider dark />
         <div
-          class="flex flex-col lg:flex-row items-center lg:justify-center space-x-2 text-white text-2xl m-2"
+           class="flex flex-col lg:flex-row items-center lg:justify-center space-x-2 space-y-2 text-white text-2xl m-2"
         >
-          <div>Fighter 1</div>
-          <div>VS</div>
-          <div>Fighter 2</div>
+          <v-chip dark>Fighter 1</v-chip>
+          <div class="xl:mr-2 xl-ml-2">VS</div>
+          <v-chip dark>Fighter 2</v-chip>
         </div>
       </div>
       <div v-if="tab == 1">
         <div
-          class="flex flex-col lg:flex-row items-center lg:justify-center space-x-2 text-white text-2xl m-2"
+          class="flex flex-col lg:flex-row items-center lg:justify-center space-x-2 space-y-2 text-white text-2xl m-2"
         >
-          <div>Fighter 1</div>
-          <div>Fighter 11</div>
+          <v-chip dark>Fighter 1</v-chip>
+          <v-chip dark>Fighter 11</v-chip>
           <div>VS</div>
-          <div>Fighter 2</div>
-          <div>Fighter 22</div>
+          <v-chip dark>Fighter 2</v-chip>
+          <v-chip dark>Fighter 22</v-chip>
         </div>
         <v-divider dark />
         <div
-          class="flex flex-col lg:flex-row items-center lg:justify-center space-x-2 text-white text-2xl m-2"
+          class="flex flex-col lg:flex-row items-center lg:justify-center space-x-2 space-y-2 text-white text-2xl m-2"
         >
-          <div>Fighter 1</div>
-          <div>Fighter 11</div>
+          <v-chip dark>Fighter 1</v-chip>
+          <v-chip dark>Fighter 11</v-chip>
           <div>VS</div>
-          <div>Fighter 2</div>
-          <div>Fighter 22</div>
+          <v-chip dark>Fighter 2</v-chip>
+          <v-chip dark>Fighter 22</v-chip>
         </div>
         <v-divider dark />
         <div
-          class="flex flex-col lg:flex-row items-center lg:justify-center space-x-2 text-white text-2xl m-2"
+          class="flex flex-col lg:flex-row items-center lg:justify-center space-x-2 space-y-2 text-white text-2xl m-2"
         >
-          <div>Fighter 1</div>
-          <div>Fighter 11</div>
+          <v-chip dark>Fighter 1</v-chip>
+          <v-chip dark>Fighter 11</v-chip>
           <div>VS</div>
-          <div>Fighter 2</div>
-          <div>Fighter 22</div>
+          <v-chip dark>Fighter 2</v-chip>
+          <v-chip dark>Fighter 22</v-chip>
         </div>
       </div>
     </v-card>
